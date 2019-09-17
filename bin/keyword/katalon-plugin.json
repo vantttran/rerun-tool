@@ -1,0 +1,28 @@
+{
+   "name": "Rerun Plugin",
+   "keywords": [
+      "com.kms.katalon.keyword.testsuite.RerunKeyword"
+   ],
+   "listeners": ["TestListener"],
+   "configuration": {
+      "settingId": "com.kms.katalon.keyword.Create-Suite-Plugin",
+      "settingPage": {
+         "name": "Create Suite Plugin",
+         "components": [
+			{
+               "key": "Create Suite",
+               "type": "checkbox",
+               "label": "Create Suite For Failed Test Cases",
+               "defaultValue": true
+            },
+			{
+               "key": "Delete Suite",
+               "type": "checkbox",
+               "label": "Delete Suite Created By Plugin After Running",
+               "defaultValue": false
+            }
+         ]
+      }
+   }
+   
+}
